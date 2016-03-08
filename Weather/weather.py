@@ -1,6 +1,7 @@
 import urllib
 import json
 
+
 serviceurl = 'http://api.openweathermap.org/data/2.5/weather?q=MapleGrove%20USA&appid=44db6a862fba0b067b1930da0d769e98'
 
 uh = urllib.urlopen(serviceurl)
