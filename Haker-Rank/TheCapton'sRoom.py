@@ -4,9 +4,8 @@ print roomNumList
 '''for i in range(len(roomNumList)):
     if roomNumList.count(roomNumList[i]) is not k:
         print "Room num :",roomNumList[i]'''
-a=sum(roomNumList)*k      
-b=sum(roomNumList)      
+a=sum(roomNumList)*k
+b=sum(set(roomNumList))
 print"a=",a
-print"b=",b 
-print"a-b",(a-b) 
-       
+print"b=",b
+print"a-b",((a-b)/k)/k
