@@ -2,9 +2,10 @@
 
 def digit_sum(num):
     ans=0
+
     for n in range(len(num)):
-        ans=ans+int(num[n]) 
-    return ans      
+        ans=ans+int(num[n])
+    return ans 
 while True:
     number=raw_input("Enter a number")
     if number=="done":
@@ -14,6 +15,6 @@ while True:
     try:
         num=int(number)
     except:
-        print "Enter valid number" 
+        print "Enter valid number"
         continue
-    print digit_sum(number)        
+    print digit_sum(number)
