@@ -9,6 +9,6 @@ print c2.dangerous # 2
 del c1.dangerous
 print c1.dangerous # 2
 C.dangerous = 3
-print c2.dangerous # 2
+print c2.dangerous # 3
 
 #instant variable and static variable in python
